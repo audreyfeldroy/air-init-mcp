@@ -40,21 +40,22 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `air_init_mcp` for local development.
+Ready to contribute? Here's how to set up `air-init-mcp` for local development.
 
-1. Fork the `air_init_mcp` repo on GitHub.
+1. Fork the `air-init-mcp` repo on GitHub.
 2. Clone your fork locally:
 
    ```sh
-   git clone git@github.com:your_name_here/air_init_mcp.git
+   git clone git@github.com:your_name_here/air-init-mcp.git
    ```
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development:
 
    ```sh
-   mkvirtualenv air_init_mcp
    cd air_init_mcp/
-   python setup.py develop
+   uv venv
+   source .venv/bin/activate
+   uv sync
    ```
 
 4. Create a branch for local development:
