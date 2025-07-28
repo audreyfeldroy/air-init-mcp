@@ -69,3 +69,8 @@ select = [
 
 [tool.uv]
 package = true
+
+[dependency-groups]
+dev = [
+    "rust-just>=1.42.4",
+]
