@@ -25,4 +25,4 @@ def air_init_package(pypi_package_name: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(host="127.0.0.1", port=4200,)
