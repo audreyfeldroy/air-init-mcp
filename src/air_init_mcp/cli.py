@@ -12,8 +12,7 @@ console = Console()
 @app.command()
 def main():
     """Console script for air_init_mcp."""
-    console.print("Replace this message by putting your code into "
-               "air_init_mcp.cli.main")
+    console.print("Replace this message by putting your code into air_init_mcp.cli.main")
     console.print("See Typer documentation at https://typer.tiangolo.com/")
     utils.do_something_useful()
 
