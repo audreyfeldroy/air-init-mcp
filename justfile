@@ -41,7 +41,7 @@ VERSION := `grep -m1 '^version' pyproject.toml | sed -E 's/version = "(.*)"/\1/'
 version:
     @echo "Current version is {{VERSION}}"
 
-# Tag the current version in git and put to github
+# Tag the current version in git and push to github
 tag:
     echo "Tagging version v{{VERSION}}"
     git tag -a v{{VERSION}} -m "Creating version v{{VERSION}}"
