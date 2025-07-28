@@ -1,7 +1,7 @@
 # Usage
 
-To use Air Init MCP in a project:
+To start the Air Init MCP server:
 
-```python
-import air_init_mcp
+```sh
+fastmcp run src/air_init_mcp/air_init_mcp.py:mcp
 ```
