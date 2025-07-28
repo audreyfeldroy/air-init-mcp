@@ -8,7 +8,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/audreyfeldroy/air_init_mcp/issues.
+Report bugs at https://github.com/audreyfeldroy/air-init-mcp/issues.
 
 If you are reporting a bug, please include:
 
@@ -30,7 +30,7 @@ Air Init MCP could always use more documentation, whether as part of the officia
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/audreyfeldroy/air_init_mcp/issues.
+The best way to send feedback is to file an issue at https://github.com/audreyfeldroy/air-init-mcp/issues.
 
 If you are proposing a feature:
 
@@ -52,7 +52,7 @@ Ready to contribute? Here's how to set up `air-init-mcp` for local development.
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development:
 
    ```sh
-   cd air_init_mcp/
+   cd air-init-mcp/
    uv venv
    source .venv/bin/activate
    uv sync
