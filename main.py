@@ -13,7 +13,7 @@ def index():
         air.H1('Hello, world'),
         air.P(air.A('Go to API root', href='/api')),
         air.P(air.A('Go to API Docs', href='/api/docs')),
-        air.P(air.A('Go to MCP', href='/api')),
+        air.P(air.A('Go to MCP', href='/???')),
 
     )
 
